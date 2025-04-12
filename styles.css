@@ -310,6 +310,15 @@ body {
     }
 }
 
+@media (min-width: 769px) {
+    .desktop-only {
+        display: block;
+    }
+    .mobile-only {
+        display: none;
+    }
+}
+
 /* Services Section */
 .services {
     padding: 5rem 0;
